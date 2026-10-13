@@ -1,0 +1,28 @@
+[project]
+name = "projects analysis"
+authors= [
+    {name = "Fernanda Lisboa", email = "fernandanlisboa@outlook.com"}
+]
+version = "1.0.0"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    huggingface_hub==2.2.0,
+    ipykernel==7.4.0,
+    ipython==9.17.1,
+    ipywidgets==8.1.9,
+    jupyter_client==8.10.0,
+    jupyter_core==5.9.1,
+    jupyterlab_widgets==3.0.17,
+    numpy==2.5.2,
+    pandas==3.0.6,
+    python-dotenv==1.2.4,
+    PyYAML==6.0.3,
+    tokenizers==0.23.3,
+    torch==2.14.1+cu130,
+    torchvision==0.29.1+cu130,
+    tqdm==4.70.1,
+    transformers==5.19.0,
+    matplotlib==3.11.2,
+    seaborn==0.13.2
+]
